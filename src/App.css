@@ -1,0 +1,162 @@
+
+*
+{
+  font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  /* background-color: aqua; */
+  width: 100%vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg'); /* Replace 'your-background-image.jpg' with your image URL */
+  background-size: cover;
+  animation: moveBackground 10s linear infinite; /* Adjust animation duration and timing function as needed */
+}
+.container
+{
+  width: max-content;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(68, 63, 63);
+}
+.input-container
+{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: 2px solid rgb(0, 191, 255);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cityInput
+{
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+}
+.search-icon img{
+  object-fit: contain;
+  margin: 5px;
+}
+.image
+{
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px;  
+}
+.image img{
+  height: 160px;
+  width: 160px;
+}
+.temp,
+.location,
+.country
+{
+  margin: 5px;
+  font-size: 35px;
+  color: rgb(188, 133, 65);
+  text-transform: uppercase;
+  text-align: center;
+}
+.temp
+{
+  font-weight: 500;
+}
+.location{
+  color: rgb(169, 138, 97);
+  font-weight: 400;
+  font-size: 40px;
+}
+.country{
+  font-size: 18px;
+  color: rgb(255, 196, 107);
+  font-weight: 400;
+}
+.cord
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.cord div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.cord div span{
+  font-size: 14px;
+}
+.humidity-percent,
+.wind-percent,
+.cord div span :nth-child(2)
+{
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  padding-top: 5px;
+}
+.data-container
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.element
+{
+  text-align: center;
+}
+.icon{
+  height: 50px;
+  width: 50px;
+}
+.text
+{
+  font-size: 12px;
+  color: #888;
+}
+.copyright
+{
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+}
+.copyright span
+{
+  color: #333;
+}
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.background {
+  height: 100vh;
+  background-image: url('https://www.shutterstock.com/image-illustration/80s-retro-futurism-background-260nw-1232789431.jpg'); /* Replace 'your-background-image.jpg' with your image URL */
+  background-size: cover;
+  animation: moveBackground 10s linear infinite; /* Adjust animation duration and timing function as needed */
+}
+h1{
+  /* padding-top: 1%; */
+  text-align: center;
+  color: #7a7171;
+}
