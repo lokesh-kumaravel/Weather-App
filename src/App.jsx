@@ -111,6 +111,7 @@ const weathericonmap ={
       setcitynotfound(false);
     }catch(error){
       console.error("An error occurred:",error.message);
+     alert("City not Found"); 
     }
     finally{
       setloading(false);
